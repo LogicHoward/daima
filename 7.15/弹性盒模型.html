@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      .box {
+        width: 100%;
+        height: 600px;
+        background-color: beige;
+        display: flex;
+        /* flex-direction: row; /*排列方向是主轴方向*/
+        /* justify-content: space-between; 主轴对齐方式 */
+        /* align-items: center; 侧轴对齐方式 */
+      }
+      .one {
+        /* width: 100px; */
+        height: 100px;
+        background-color: blue;
+        flex-grow: 1;
+      }
+      .two {
+        /* width: 100px; */
+        height: 100px;
+        background-color: pink;
+        flex-grow: 1;
+      }
+      .three {
+        /* width: 100px; */
+        height: 100px;
+        background-color: greenyellow;
+        flex-grow: 1;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="box">
+      <div class="one">1</div>
+      <div class="two">2</div>
+      <div class="three">3</div>
+    </div>
+  </body>
+</html>

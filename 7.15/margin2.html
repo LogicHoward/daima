@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      .box {
+        width: 100%;
+        height: 1155px;
+        /* background-color: red; */
+      }
+      .wrap {
+        width: 1240px;
+        height: 1155px;
+        margin: 0 auto;
+        /* background-color: yellow; */
+      }
+      .wrap > div {
+        width: 303px;
+        height: 375px;
+        background-color: pink;
+        margin-top: 10px;
+        margin-right: 9px;
+        float: left;
+      }
+      .wrap > div:nth-child(4n) {
+        margin-right: 0px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="box">
+      <div class="wrap">
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+      </div>
+    </div>
+  </body>
+</html>

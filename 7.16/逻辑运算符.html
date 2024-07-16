@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <script>
+      var x = 5;
+      console.log(2 < 1 && x++ > 3); //出现短路运算，所以x的值不会改变
+
+      console.log(x);
+      console.log(2 < 1 || x++ > 3);
+
+      console.log(x);
+    </script>
+  </body>
+</html>

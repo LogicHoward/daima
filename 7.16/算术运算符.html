@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <script>
+      console.log("3" + 2);
+      console.log("3" - 1);
+      console.log("3" * 2);
+      console.log("3" / 2);
+      console.log("3" % 2);
+      console.log("-----------"); //遇boolean
+      console.log(1 + true);
+
+      console.log(1 + false);
+      console.log("-----------"); //遇undefined
+      console.log(1 + undefined);
+      console.log("-----------"); //遇null
+      console.log(1 + null);
+      console.log("-----------"); //遇array
+      console.log(3 + [1]);
+      console.log(3 + [1, 2]);
+      console.log("3" + [1]);
+      console.log("3" + [1, 2]);
+      console.log(3 - [1]);
+      console.log("3" - [1]);
+      console.log("3" - [1, 2]);
+      console.log("-----------"); //遇object
+      console.log(3 + { a: 1 });
+      console.log("3" + { a: 1 });
+      console.log(3 - { a: 1 });
+
+      console.log("3" - { a: 1 });
+      console.log("-----------"); //遇NaN
+      console.log(5 + NaN);
+
+      console.log(5 - NaN);
+      console.log("-----------");
+      var x = 1;
+      console.log(x++);
+      console.log(x);
+      console.log(++x);
+      console.log(x);
+      console.log(x--);
+      console.log(x);
+      console.log(--x);
+      console.log(x);
+    </script>
+  </body>
+</html>

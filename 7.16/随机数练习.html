@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <script>
+      //交换两个随机数并打印到控制台
+      const MIN = 10;
+      const MAX = 100;
+      var ran1 = parseInt(Math.random() * (MAX - MIN + 1) + MIN);
+      var ran2 = parseInt(Math.random() * (MAX - MIN + 1) + MIN);
+      console.log("随机数1：" + ran1);
+      console.log("随机数2：" + ran2);
+      var temp = ran1;
+      ran1 = ran2;
+      ran2 = temp;
+      console.log("交换后随机数1：" + ran1);
+      console.log("交换后随机数2：" + ran2);
+    </script>
+  </body>
+</html>

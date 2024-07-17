@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <script>
+      //使用随机数求 10-100之间的5,7的某一个公倍数。并打印
+      //   const MAX = 100;
+      //   const MIN = 10;
+      //   while (!(ran % 5 == 0 && ran % 7 == 0)) {
+      //     var ran = ~~(Math.random() * (MAX - MIN + 1) + MIN);
+      //   }
+      //   console.log(ran);
+
+      //假如你有100元钱，买水喝，一瓶水2元，退空瓶1元，退瓶盖0.5元，问可以买多少瓶水喝
+      //   var money = 100;
+      //   var count = 0;
+      //   while (money >= 2) {
+      //     money -= 2;
+      //     money += 1;
+      //     money += 0.5;
+      //     count++;
+      //   }
+      //   console.log(count + "瓶");
+
+      //小明的速度2m/s,小刚的速度3m/s,两人相距1000米，同时相向而行，问多久能相遇。
+      var t = 1;
+      while (!(2 * t + 3 * t >= 1000)) {
+        t++;
+      }
+      console.log(t + "s相遇");
+    </script>
+  </body>
+</html>

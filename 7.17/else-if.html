@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <script>
+      //根据成绩给出等级
+      // >= 90 a
+      // >= 80 b
+      // >=70 c
+      // >=60 d
+      // 否则不及格
+      const MAX = 100;
+      const MIN = 0;
+      var score = ~~(Math.random() * (MAX - MIN + 1) + MIN);
+      console.log("分数：" + score);
+      if (score >= 90) {
+        console.log("成绩a");
+      } else if (score >= 80) {
+        console.log("成绩b");
+      } else if (score >= 70) {
+        console.log("成绩c");
+      } else if (score >= 60) {
+        console.log("成绩d");
+      } else {
+        console.log("不及格");
+      }
+    </script>
+  </body>
+</html>

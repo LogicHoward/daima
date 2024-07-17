@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <script>
+      //使用随机数求 10-100之间的5,7的某一个公倍数。并打印
+      const MIN = 10;
+      const MAX = 100;
+      do {
+        var ran = ~~(Math.random() * (MAX - MIN + 1) + MIN);
+      } while (!(ran % 5 == 0 && ran % 7 == 0));
+      console.log(ran);
+    </script>
+  </body>
+</html>

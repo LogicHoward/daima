@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <script>
+      class Person {
+        constructor(name, age) {
+          this.name = name;
+          this.age = age;
+        }
+        getName() {
+          console.log(this.name);
+        }
+
+        get prop() {
+          console.log("get方法");
+          return "ppp";
+        }
+        set prop(value) {
+          console.log("set方法");
+          return value;
+        }
+
+        static method1() {
+          console.log("静态方法");
+        }
+        method2() {
+          console.log("实例方法");
+        }
+      }
+
+      var p = new Person("jack", 38);
+      p.getName();
+      p.prop = "hhh";
+      p.prop;
+      p.method2();
+      Person.method1();
+    </script>
+  </body>
+</html>

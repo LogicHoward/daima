@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <script>
+      //   var username = "jack";
+      //   var user = {
+      //     username,
+      //     age: 10,
+      //   };
+      //   console.log(user.username);
+
+      //   var info = {};
+      //   info.name = "jack";
+      //   var age = "infoAge";
+      //   info[age] = 10;
+      //   console.log(info);
+
+      var { a, b, ...z } = { a: 1, b: 2, c: 3, d: 4 };
+      console.log(a, b, z);
+
+      console.log(Object.is(+0, -0));
+      console.log(Object.is(NaN, NaN));
+
+      var MyObj = {
+        name: "jack",
+        age: 13,
+      };
+      var MyObj2 = {
+        sex: "男",
+      };
+      console.log(Object.assign(MyObj, MyObj2));
+    </script>
+  </body>
+</html>

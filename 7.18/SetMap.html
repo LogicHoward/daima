@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <script>
+      const s = new Set();
+      //   console.log(s);
+      s.add(11);
+      s.add(24);
+
+      var arr = [1, 2, 3, 4, 3, 4];
+      console.log([...new Set(arr)]);
+      console.log([...new Set(arr)].join(""));
+
+      s.add(5);
+      console.log(s);
+      s.delete(5);
+      console.log(s);
+      console.log(Array.from(s));
+    </script>
+  </body>
+</html>

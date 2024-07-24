@@ -1,0 +1,10 @@
+import { name, age } from "./a";
+console.log(name, age);
+import { Function1 } from "./a";
+Function1();
+import func from "./a";
+func();
+import f2 from "./b";
+f2();
+import { x, y } from "./b";
+console.log(x, y);
